@@ -15,5 +15,9 @@ export default defineConfig({
     },
     chunkSizeWarningLimit: 10000
   },
+  esbuild: {
+    target: 'esnext',
+    platform: 'linux',
+  }
 
 });
