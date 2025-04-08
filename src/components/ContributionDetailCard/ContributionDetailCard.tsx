@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Card,
   Avatar,
   Typography,
   Rate,
   Row,
-  Col,
   Space,
 } from "antd";
 import {

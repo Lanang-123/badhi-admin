@@ -3,7 +3,7 @@ import { Layout, Row, Col, List, Card, Typography } from "antd";
 import ReactECharts from "echarts-for-react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { HomeOutlined, UserOutlined, FileDoneOutlined } from "@ant-design/icons";
-import dayjs, { Dayjs } from "dayjs";
+import dayjs from "dayjs";
 import customParseFormat from "dayjs/plugin/customParseFormat";
 import isBetween from "dayjs/plugin/isBetween";
 

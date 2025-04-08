@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Layout, Row, Typography, Space, Rate, Avatar,Card } from "antd";
 import styles from './Contribution.module.css';
 import Logo from '../../assets/images/Badhi-Logo.png'

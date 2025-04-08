@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Button,
   Card,
@@ -14,7 +14,7 @@ import {
   Dropdown,
   Menu
 } from "antd";
-import { SearchOutlined, MoreOutlined } from "@ant-design/icons";
+import { MoreOutlined } from "@ant-design/icons";
 import styles from './RequestTemple.module.css';
 import useTempleStore from "../../store/useTempleStore";
 import Pura from "../../assets/images/thumbnailPura.png"

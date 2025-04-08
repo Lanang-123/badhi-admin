@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Modal,
   Button,
@@ -75,7 +75,7 @@ function VideoRatingModal({ isVisible, onClose }: VideoRatingModalProps) {
 
       {/* Kategori (Madya Mandala) */}
       <Button
-        size="medium"
+        size="middle"
         style={{
           backgroundColor: "#772d2f",
           borderRadius: "12px",

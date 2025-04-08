@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 import "antd/dist/reset.css";
 import { Card, Form, Input, Button, message } from "antd";
 import BadhiLogo from "../../assets/images/Badhi-Logo.png";
@@ -21,7 +20,7 @@ const Login: React.FC = () => {
       navigate("/dashboard", { replace: true });
     }
   }, [navigate]);
-  
+
 	const handleLogin = async (values: any) => {
 	  try {
 	    const response = await fetch(

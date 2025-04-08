@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Button,
   Card,
@@ -21,7 +21,7 @@ const { Search } = Input;
 type SearchProps = GetProps<typeof Input.Search>;
 
 function ContributionDetail() {
-  const [searchText, setSearchText] = useState("");
+  const [, setSearchText] = useState("");
   // State untuk kategori aktif
   const [activeCategory, setActiveCategory] = useState("nista");
   // State untuk filter waktu (misalnya default = 'This Month')

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Button, Card, Col, Layout, Row, Typography, Table, Input } from "antd";
 import { SearchOutlined, ExclamationCircleFilled } from "@ant-design/icons";
 import type { GetProps } from "antd";
@@ -19,9 +19,10 @@ function Contribution() {
     monthlyLabels,
     contributorData,
     contributorLabels,
-    videoApprovalData,
-    videoApprovalLabels,
+    
   } = useChartContributionStore();
+  // videoApprovalData,
+  //   videoApprovalLabels,
 
   const onSearch: SearchProps["onSearch"] = (value) => {
     setSearchText(value);
